@@ -1,0 +1,117 @@
+body{
+    background-color: #170312;
+    color:white;
+    margin:0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+main{
+      background-color: #33032F;
+    width:80%;
+    margin-top: 100px;
+    margin-left: 150px;
+    border-radius: 10px;
+    height: 80vh;
+}
+#logo{
+width:50px;
+height: 70px;
+}
+.lists{
+    list-style: none;
+  
+}
+.list-div > .lists > li{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+   margin-right: 0;
+   margin-top: 0;
+}
+.container > .list-div > .lists{
+    display: flex;
+    gap:20px;
+}
+.container > .list-div > .lists > li{
+text-align: center;
+}
+.container > .button-div > button{
+    background-color: #C1D7AE;
+    width:130px;
+    height:40px;
+    border-radius: 8px;
+    text-align: center;
+    color:#171614;
+    border:1px solid white;
+    cursor: pointer;
+}
+.container > .button-div{
+    margin-top:10px;
+    margin-right:20px;
+}
+.converter{
+    width:900px;
+    display: flex;
+    justify-content: space-between;
+}
+.convert{
+    width: 60vw;
+    height: 30vh;
+    background-color: #531253;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top:100px;
+}
+.convert > .converter > .represent > #bits{
+    width:50px;
+    height: 60px;
+    margin-left:20px;
+    border-radius: 15px;
+    border:none;
+    background-color: #531D5E;
+     color:white;
+}
+.convert > .converter >.decimal > #decimalNumber{
+    width:200px;
+    height: 60px;
+    margin-right:20px;
+    border-radius: 15px;
+    border:none;
+    background-color: #531D5E;
+    color:white;
+}
+.convert > .converter > .binary > #binaryNumber,.convert > .converter >.complement> #compNum{
+    width:200px;
+    height: 60px;
+    margin-right:20px;
+    border-radius: 15px;
+    border:none;
+    background-color: #531D5E;
+    color:white;
+}
+.convert > .converter{
+    margin-left: 40px;
+}
+.last-part{
+    display: flex;
+}
+.last-part > .sentence{
+    width:40%;
+    margin-left: 40px;
+}
+.last-part > .sentence1{
+    margin-right:150px;
+}
+
+.texts > .topic{
+    font-size: 40px;
+    text-align: center;
+}
+hr{
+    color: #682D88;
+    height: 90px;
+    margin-left: 100px;
+}
