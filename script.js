@@ -83,6 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
     decimalInput.addEventListener('input', updateFromDecimal);
     binaryInput.addEventListener('input', updateFromBinary);
     bitsInput.addEventListener('input', () => {
-        updateFromDecimal();  // update both when bits change
+        updateFromDecimal(); 
     });
 });
+
